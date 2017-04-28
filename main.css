@@ -1,0 +1,74 @@
+body{
+    background-color: lightgray;
+}
+.ocean{
+    font-family: "Cambria Math";
+    color: #3a3a3a;
+    width: 280px;
+    margin-top: 40px;
+    margin-left: 200px;
+    float: left;
+    -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.23);
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.23);
+}
+
+.ocean-image {
+    height: 280px;
+    width: 280px;
+    background-image: url('../ocean.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.content{
+    height:270px;
+    width:280px;
+    background-color: white;
+}
+
+.featured{
+    text-align: center;
+    padding: 15px 30px;
+    color: gray;
+    font-size: 10px;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding: 12px 30px;
+}
+
+.info{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    padding: 70px 30px 0 30px;
+}
+
+
+.city{
+    font-family: "Cambria Math";
+    color: #3a3a3a;
+    float: right;
+    width: 280px;
+    margin-top: 40px;
+    margin-right: 200px;
+    -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.23);
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.23);
+
+
+}
+
+.city-image {
+    height: 280px;
+    width: 280px;
+    background-image: url('../bridge.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
